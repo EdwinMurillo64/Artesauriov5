@@ -1,0 +1,141 @@
+<!doctype html>
+<html>
+<head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<meta charset="utf-8">
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/bootstrap-custom.css" rel="stylesheet">
+<link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+<link href="css/style.css" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="Keywords" content="Arte, materiales, dibujo, tutoriales, manualidades, pinceles, sketchbook, tradicional, productos, comprar, artesaurio, comercio, lapices, sketch,  boceto, pintura, pintor, aprender">
+<meta name="Description" content="Artesaurio es una pagina web de comercio electronico enfocada en vender productos relacionados al arte tradicional y en su conjunto ayudar a las pesronas a aprender a utilizar dichos productos mediante tutoriales interactivos">
+<title>Crear-cuenta</title>
+</head>
+
+<body>
+	<header>
+	<section id="header-cuenta">
+		<a href="index.html"><img src="img/Recurso logo-header.png" width="30%" alt="artesaurio logo" class="mb-2"></a>
+		 </section>
+</header>
+		
+<section id="nav-bar">
+        <div class="container-fluid mt-2">
+          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          
+			  
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false"
+aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+			  
+			  
+            <div class="collapse navbar-collapse" id="navbar">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="pinturas.html"><p>Pinturas</p></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="dibujo.html"><p>Dibujo</p></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="tutoriales.html"><p>Tutoriales</p></a>
+                </li>
+				</ul>
+				  
+			 <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                  <a class="nav-link" href="iniciar-sesion.html"><i class="las la-user"></i></a>
+                </li>
+                <div class="searchbar">
+	
+	<div class="box">
+	<input type="text" placeholder="Buscar...">
+		<a href="#">
+	<i class="las la-search"></i>
+		</a>
+	</div>
+	</div>
+                <li class="nav-item">
+                   <span style="cursor:pointer" onclick="openNav()"><i class="las la-shopping-cart"></i></span>
+                </li>
+				 
+				</ul>
+            </div>
+          </nav>
+          </div>
+	</section>
+<div id="myNav" class="overlay-compras">
+		
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-carrito">
+		<div class="container">
+	  <h2>Tu carrito</h2>	
+	  <div class="comprasicon">
+		  <i class="las la-shopping-bag"></i>
+		</div>
+		<h5>Carrito vacio, continúa comprando</h5>
+	  </div>
+		</div>
+	</div>	
+	<section id="cuenta">
+		<div class="container">
+			<div class="row">
+				<article class="col-lg-5 col-sm-12 col-12 img">
+					<img src="img/artesaurio-login.png" alt="logo de artesaurio" width="100%">
+				</article>
+				<article class="col-lg-7 col-sm-12 col-12 inputs">
+					<h1> Iniciar Sesión </h1>
+					<input type="text" name="nombre-usuario" class="form-control mt-4" required placeholder="Nombre de usuario">
+					<input type="password" name="contraseña" class="form-control mt-4" required placeholder="Contraseña">
+				
+					<div style="text-align: center" class="mt-5">
+					<a href="index.html" class="btn btn-primary"> Iniciar sesión </a>
+					<a href="crear-cuenta.html" class="btn btn-primary"> No tengo cuenta </a>
+					</div>
+					<div style="text-align: center" class="mt-4">
+						<i class="lab la-google"></i>
+						<i class="lab la-facebook"></i>
+						<i class="lab la-instagram"></i>
+					</div>
+							
+				</article>
+			</div>
+		</div>
+	</section>
+	
+	<footer>
+		<div class="container">
+			<div class="row">
+				<article class="col-lg-6 col-sm-6 col-12">
+					<p> Derechos reservados, identidad grafica y logo son propiedad de Artesaurio.</p>
+					<img src="img/artesaurio-footer.png" width="30%" alt="logo artesaurio">
+				</article>
+				<article class="col-lg-6 col-sm-6 col-12">
+					<p> Sitio web diseñado y creado ena colaboracion con Pentool agencia publicitaria.</p>
+					<img src="img/pentool-footer2.png" width="40%" alt="logo pentool">
+				</article>
+			
+			</div>
+		
+		</div>
+	</footer>
+
+
+
+		<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script>
+function openNav() {
+  document.getElementById("myNav").style.width = "25%";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+}
+</script>
+	</body>
+</html>
